@@ -190,3 +190,15 @@ h1.title {
     transform: scale(.5);
   }
 }
+
+@media only screen and (max-width: 640px) {
+  h1.title {
+    display: none;
+  }
+  .mask .box {
+    transform: scale(.4);
+  }
+  .banner {
+    display: none;
+  }
+}
